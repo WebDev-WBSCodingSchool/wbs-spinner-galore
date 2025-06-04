@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import ReactMarkdown from 'react-markdown';
+import { MarkdownHooks } from 'react-markdown';
+import rehypeStarryNight from 'rehype-starry-night';
 
 const Instructions = ({ path }) => {
   const [loading, setLoading] = useState(true);
@@ -47,7 +48,7 @@ const Instructions = ({ path }) => {
 
   return (
     <div className='instructions-container'>
-      <ReactMarkdown>{markdownText}</ReactMarkdown>
+      <MarkdownHooks rehypePlugins={[rehypeStarryNight]}>{markdownText}</MarkdownHooks>
     </div>
   );
 };
