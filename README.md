@@ -1,20 +1,17 @@
 # WBS Spinner Galore
 
-This repo contains examples for two data fetching strategies in React:
-
-- Fetch‑on‑Render
-- Render-as-you-Fetch
+You need to fetch some data!
 
 ## Clone into directory
 
 ```sh
-git clone git@github.com:WebDev-WBSCodingSchool/react-data-fetching.git
+git clone git@github.com:WebDev-WBSCodingSchool/wbs-spinner-galore.git
 ```
 
 ## Install
 
 ```sh
-cd react-data-fetching && npm ci
+cd wbs-spinner-galore && npm ci
 ```
 
 ## Start Dev Server
@@ -23,4 +20,4 @@ cd react-data-fetching && npm ci
 npm run dev
 ```
 
-## Follow along with LMS
+## Check the instructions in the homepage
