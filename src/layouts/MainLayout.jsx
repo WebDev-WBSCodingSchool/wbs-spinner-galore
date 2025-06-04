@@ -24,7 +24,11 @@ const MainLayout = () => {
           </Link>
         </div>
         <div className='flex-none'>
-          <ul className='menu menu-horizontal px-1'>{/* Your Links go here */}</ul>
+          <ul className='menu menu-horizontal px-1'>
+            <li>
+              <Link to='/pokemon'>Pokémon List</Link>
+            </li>
+          </ul>
         </div>
       </nav>
       <ToastContainer theme={prefersDark ? 'dark' : 'light'} />
